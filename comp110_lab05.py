@@ -4,25 +4,31 @@ Module: comp110_lab05
 Modules with some functions for Lab 05 practice problems.
 """
 
-def caesar_encrypt(str_plain, shift_amount):
+def caesar_encrypt(plain_text, shift_amount):
     """
     Uses the Caesar cipher with shift amount shift_amount to encrypt the 
-    string str_plain, and returns that string.
+    string plain_text, and returns that string.
     """
 
-    str_cipher = ""
+    cipher_text = ""
 
-    return 0  # placeholder.  Replace the 0.
+    # Add your code here to start constructing cipher_text
 
-def caesar_decrypt(str_cipher, shift_amount):
+    return cipher_text
+
+
+def caesar_decrypt(cipher_text, shift_amount):
     """
     Uses the Caesar cipher with shift amount shift_amount to decrypt the 
-    string str_cipher, and returns that string.
+    string cipher_text, and returns that string.
     """
 
-    str_plain = ""
+    plain_text = ""
 
-    return 0   # Placeholder.  Replace the 0
+    # Add your code here to start constructing plain_text
+
+    return plain_text
+
 
 def modify_list(in_list):
     """
@@ -32,4 +38,4 @@ def modify_list(in_list):
 
     out_list = []
 
-    return 0 # placeholder.  Replace the 0
+    return 0 # Placeholder. Replace the 0 with the appropriate variable.
